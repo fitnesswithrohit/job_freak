@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.header {
+    overflow: hidden;
+    background-color: black;
+    padding: 22px 15px;
+    position: sticky;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 25px;
+    
+}
+
+.header a.active:hover{
+    background-color: blue;
+    color: white;
+}
+
+.header a.active1:hover {
+    background-color: red;
+    color: white;
+}
+
+.header a.active2:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.header a.active3:hover {
+    background-color: chartreuse;
+    color: white;
+}
+
+@media screen and (max-width: 501px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+}
+
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center{
+    text-align: center;
+
+}
+
+.info{
+    background-color: #A5D5E5;
+}
+
+.guide{
+    background-color: #EDDEA4;
+}
+
+.contact{
+    background-color: #BDCCCA;
+}
